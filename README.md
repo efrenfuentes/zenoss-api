@@ -6,7 +6,7 @@ Usage
 
 ### List all devices in Zenoss
 ```python
-from zenoss import ZenossAPI
+from zenoss_api.zenoss import ZenossAPI
 
 zenoss = ZenossAPI('http://zenoss:8080/', 'admin', 'password')
 
